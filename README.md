@@ -5,7 +5,7 @@ Modified FBX Export script for Blender2.8
 I have added custom bone axis correction matrix for correcting the angle of character steering animations in the game ScrapMechanic.
 My added code in the python files is tagged with the comment 'MJM ScrapMechanic Mod'.
 
-![](images/Screenshot.png)
+![](Screenshot.png)
 
 Issue I'm addressing: 
 When making custom driverseat models, the character's steering animation is located at a bone named "j_root" in your seat model, and the tilt angle of the steering animation is usually aligned to a bone named "j_ratt". However, when using FBX models instead of Ogre.mesh, the angle of the j_ratt bone seems to be ignored. 
